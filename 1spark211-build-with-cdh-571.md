@@ -37,4 +37,7 @@ pom.xml 文件中添加
 在CDH的spark中，要想集成hive-thriftserver进行编译，需要修改 pom.xml 文件，添加一行 sql/hive-thriftserver：
 
 
+注意：bin/spark-sql --master local
+
+
 
